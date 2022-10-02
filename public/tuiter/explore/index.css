@@ -13,6 +13,7 @@ body {
     border-radius: 25px;
     background: darkgray;
     color: white;
+    margin-top: 12px;
 }
 
 .wd-gear {
@@ -52,7 +53,11 @@ body {
     border-radius: 25px;
 }
 
-.hr {
-    color: rgb(47, 51, 54);
+.wd-tuiter-border {
+    border: solid 1px rgb(47, 51, 54);
+}
+
+.wd-index {
+    margin-left: 12px;
 }
 
