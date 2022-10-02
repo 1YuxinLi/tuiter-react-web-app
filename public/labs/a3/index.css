@@ -414,37 +414,37 @@
     color: white;
 }
 
-@media (min-width: 0px)
-and (max-width: 600px) {
-    body {
-        background-color: yellow;
-    }
-    .media-query1 {
-        background-color: purple;
-        color: pink;
-    }
-}
+/*@media (min-width: 0px)*/
+/*and (max-width: 600px) {*/
+/*    body {*/
+/*        background-color: yellow;*/
+/*    }*/
+/*    .media-query1 {*/
+/*        background-color: purple;*/
+/*        color: pink;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 600px)
-and (max-width: 1200px) {
-    body {
-        /*color: blue;*/
-    }
-    .media-query2 {
-        background-color: yellow;
-        color: black;
-    }
-}
-@media (min-width: 1200px)
-and (max-width: 1800px) {
-    body {
-        color: red;
-    }
-    .media-query3 {
-        background-color: blue;
-        color: white;
-    }
-}
+/*@media (min-width: 600px)*/
+/*and (max-width: 1200px) {*/
+/*    body {*/
+/*        !*color: blue;*!*/
+/*    }*/
+/*    .media-query2 {*/
+/*        background-color: yellow;*/
+/*        color: black;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 1200px)*/
+/*and (max-width: 1800px) {*/
+/*    body {*/
+/*        color: red;*/
+/*    }*/
+/*    .media-query3 {*/
+/*        background-color: blue;*/
+/*        color: white;*/
+/*    }*/
+/*}*/
 
 
 
