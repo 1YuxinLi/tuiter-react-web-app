@@ -4,60 +4,62 @@ body {
     color: white;
 }
 
-::placeholder {
+.wd-background-color {
+    background-color: black;
+}
+
+.wd-background-gray {
+    background-color: #2c3034;
+}
+
+.wd-color-white {
     color: white;
 }
 
-.wd-input {
-    width: 70%;
-    border-radius: 25px;
-    background: darkgray;
-    color: white;
-    margin-top: 12px;
-}
-
-.wd-gear {
-    padding-left: 12px;
+.wd-color-gray {
+    color: lightgray;
 }
 
 .wd-nav-tabs {
     width: 100%;
-    color: rgb(110, 118, 125);
+    color: rgb(29,161,242);
+    padding: 0px;
 }
 
-.wd-link {
-    font-size: 15px;
-    padding: 16px 16px 16px 16px;
-}
-
-.wd-nav-tabs li{
+.wd-nav-tabs li {
     list-style-type: none;
     display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 8px;
 }
 
 .wd-nav-tabs .wd-selected {
-    border-bottom: solid 4px rgb(29, 161, 242);
-    color: rgb(29, 161, 242);
+    padding-top: 5px;
+    border-bottom: solid 4px rgb(29,161,242);
 }
 
-.wd-topic {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
+.wd-border-gray {
+    border:  solid 1px rgb(47, 51, 54);
 }
 
-.wd-img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    padding-right: 16px;
-    border-radius: 25px;
+.wd-dark-gray {
+    background-color: grey;
 }
 
-.wd-tuiter-border {
-    border: solid 1px rgb(47, 51, 54);
+.wd-color-blue {
+    color: #0b5ed7;
 }
 
-.wd-index {
-    margin-left: 12px;
+.wd-btn {
+    background-color: white!important;
+    color: #2c3034;
 }
 
+.wd-text-size {
+    font-size: x-small;
+}
+
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
