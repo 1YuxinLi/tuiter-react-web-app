@@ -1,0 +1,70 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+}
+
+.wd-background-color {
+    background-color: black;
+}
+
+.wd-background-gray {
+    background-color: #2c3034;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-color-gray {
+    color: lightgray;
+}
+
+.wd-nav-tabs {
+    width: 100%;
+    color: rgb(29,161,242);
+    padding: 0px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 8px;
+}
+
+.wd-nav-tabs .wd-selected {
+    padding-top: 5px;
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+.wd-border-gray {
+    border:  solid 1px rgb(47, 51, 54);
+}
+
+.wd-dark-gray {
+    background-color: grey;
+}
+
+.wd-color-blue {
+    color: #0b5ed7;
+}
+
+.wd-btn {
+    background-color: white!important;
+    color: #2c3034;
+}
+
+.wd-text-size {
+    font-size: x-small;
+}
+
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.wd-img-size {
+    width: 50px;
+    height: 50px;
+}
