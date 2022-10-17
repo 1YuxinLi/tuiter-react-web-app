@@ -41,7 +41,7 @@ const ExploreComponent = () => {
                 </ul>
 
                 <div class="position-relative pb-2">
-                    <img src="../../labs/a2/teslabot.jpg" width="100%"/>
+                    <img src="../../../images/teslabot.jpg" width="100%"/>
                 </div>
            <!-- image with overlaid text -->
            ${PostSummaryList()}

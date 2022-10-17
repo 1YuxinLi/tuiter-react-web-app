@@ -68,3 +68,99 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.wd-title {
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.wd-handle {
+    padding-left: 16px;
+    color: lightgray;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+.wd-border {
+    border-bottom: solid 1px lightgray;
+}
+
+.wd-avatar {
+    padding-left: 16px;
+    padding-top: 12px;
+    border-radius: 48px;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.wd-name {
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.wd-name-handle {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-main-content {
+    font-size: 15px;
+    width: 506px;
+    padding-left: 66px;
+    padding-bottom: 12px;
+}
+
+.wd-img {
+    height: 268px;
+    width: 514px;
+    border-radius: 50px;
+}
+
+.wd-bold-title {
+    font-size: 15px;
+    padding: 12px 12px 12px 12px;
+}
+
+.wd-text {
+    color: lightgray;
+    padding: 12px 12px 12px 12px;
+    width: 506px;
+}
+
+.wd-img-border {
+    border: solid 1px rgb(47, 51, 54);
+    width: 516px;
+    border-radius: 50px;
+    margin-left: 66px;
+}
+
+.wd-nav-tabs {
+    width: 100%;
+    color: lightgray;
+    padding-left: 66px;
+}
+
+.wd-nav-tabs li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.wd-link {
+    padding: 12px 12px 12px 12px;
+}
+
+.wd-nav-tabs .wd-selected {
+    color: red;
+}
+
+.wd-word {
+    padding: 12px 12px 12px 12px;
+}
+
+.wd-border-round {
+    border:  solid 1px rgb(47, 51, 54);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

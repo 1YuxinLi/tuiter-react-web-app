@@ -1,20 +1,22 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
    <div class="list-group">
      <a class="list-group-item" href="/">
        <i class="fab fa-twitter"></i></a>
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
-       <a href="https://en.wikipedia.org/wiki/Dune_(novel)"
+
+            <a id='home' href="../HomeScreen/home.html"
            class="list-group-item list-group-item-action wd-background-color pb-3">
-          <i class="fa-solid fa-house float-start pt-1 pe-1 wd-color-gray"></i>
+           <i class="fa-solid fa-house float-start pt-1 pe-1 wd-color-gray"></i>
           <span class="d-none d-xl-block wd-color-gray">Home</span>
         </a>
-        <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
-           class="list-group-item list-group-item-action wd-background-color pb-3 active">
+         <a href="../ExploreScreen/index.html"
+           class="list-group-item list-group-item-action wd-background-color pb-3">
           <i class="fa-solid fa-hashtag float-start pt-1 pe-1 wd-color-white"></i>
           <span class="d-none d-xl-block wd-color-white">Explore</span>
         </a>
+        
         <a href="https://en.wikipedia.org/wiki/The_Forever_War"
            class="list-group-item list-group-item-action wd-background-color pb-3">
           <i class="fa-solid fa-bell float-start pt-1 pe-1 wd-color-gray"></i>
