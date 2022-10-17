@@ -113,9 +113,10 @@ body {
 }
 
 .wd-img {
-    height: 268px;
+    height: 270px;
     width: 514px;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .wd-bold-title {

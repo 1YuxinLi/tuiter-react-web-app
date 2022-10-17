@@ -7,7 +7,7 @@ const PostItems = (post) => {
             <span class="wd-name">${post.userName} <i class="fa-solid fa-circle-check"></i><span class="wd-name-handle ps-1 text-secondary">${post.handle} · ${post.time}</span> </span>
             <p class="wd-main-content">${post.comment}</p>
             <div class="wd-img-border">
-                <img class="wd-img pb-2" src="${post.image}">
+                <img class="wd-img" src="${post.image}">
                 <div class="wd-border-round">
                 <h3 class="wd-bold-title pb-0 ">${post.title}</h3>
                 <p class="wd-text pt-1 text-secondary">${post.content}</p>
