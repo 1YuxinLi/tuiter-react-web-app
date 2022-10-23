@@ -20,12 +20,12 @@ const PostListItem = (
         <div>
             <div className="wd-border-gray pt-2">
                 <i className="fa-solid fa-ellipsis wd-color-gray float-end pe-1 text-secondary"></i>
-                <img className="wd-avatar" src={`/images/${post.avatarIcon}`}/>
+                <img className="wd-avatar" alt={""} src={`/images/${post.avatarIcon}`}/>
                     <span className="wd-name">{post.userName} <i className="fa-solid fa-circle-check"></i><span
                         className="wd-name-handle ps-1 text-secondary">{post.handle} · {post.time}</span> </span>
                     <p className="wd-main-content">{post.comment}</p>
                     <div className="wd-img-border">
-                        <img className="wd-img" src={`/images/${post.image}`}/>
+                        <img className="wd-img" alt={""} src={`/images/${post.image}`}/>
                             <div className="wd-border-round">
                                 <h3 className="wd-bold-title pb-0 ">{post.title}</h3>
                                 <p className="wd-text pt-1 text-secondary">{post.content}</p>
