@@ -4,6 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'https://kit.fontawesome.com/25c5a3428b.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
