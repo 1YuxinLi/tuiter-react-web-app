@@ -36,11 +36,11 @@ const ProfileItem = (
                 </div>
             </div>
             <div>
-                <img src={person.profilePicture} width="100%" />
+                <img src={person.profilePicture} width="100%" alt={""} />
             </div>
             <div className="row">
                 <div className="col-9 position-relative">
-                    <img className="rounded-circle position-absolute end-50 translate-middle bg-white  " src={person.bannerPicture}  width="25%"/>
+                    <img alt={""} className="rounded-circle position-absolute end-50 translate-middle bg-white  " src={person.bannerPicture}  width="25%"/>
                 </div>
                 <div className="navbar col-3">
                     <Link to="/tuiter/edit-profile" className="btn border rounded-4 "> Edit Profile</Link>
