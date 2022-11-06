@@ -21,7 +21,7 @@ const ProfileItem = (
     }
 ) => {
     return(
-        <div className="border border-opacity-25 rounded-3">
+        <div className="border  rounded-3">
             <div className="row">
                 <div className="col-2">
                     <i className="bi bi-arrow-left btn btn-lg"></i>
@@ -47,17 +47,17 @@ const ProfileItem = (
                 </div>
             </div>
             <br/>
-            <div>
+            <div className="ps-2">
                 <h4 className="fw-bold">{person.firstName} {person.lastName}</h4>
                 <h6 className="text-secondary">{person.handle}</h6>
             </div>
-            <div>
+            <div className="ps-2">
                 {person.bio}
             </div>
             <br/>
             <div className="row text-secondary">
                 <div className="col-4">
-                    <i className="bi bi-geo-alt"></i>
+                    <i className="bi bi-geo-alt ps-2"></i>
                     {person.location}
                 </div>
                 <div className="col-4">
@@ -70,7 +70,7 @@ const ProfileItem = (
                 </div>
             </div>
             <br/>
-            <div className="row text-secondary">
+            <div className="row text-secondary ps-2">
                 <div className="col-auto">
                     <span className="text-black">{person.followingCount}</span>  Following
                 </div>
