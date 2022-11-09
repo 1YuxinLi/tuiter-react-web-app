@@ -1,4 +1,4 @@
-[
+
   {
     "_id": 123,
     "firstName": "Yuxin",
@@ -15,4 +15,3 @@
     "followersCount": 223,
     "tuitsCount": 6114
   }
-]
