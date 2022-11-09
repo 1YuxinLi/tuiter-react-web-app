@@ -4,11 +4,14 @@ import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router";
 import {Link} from "react-router-dom";
 
-const Index = () => {
+const EditProfileComponent = () => {
 
     const initialProfile = useSelector(state => state.profile)
-    const [profile, setProfile] = useState(initialProfile)
     const dispatch = useDispatch();
+
+    const [profile, setProfile] = useState(initialProfile)
+
+
     const updateProfileHandler = (event) => {
         dispatch(updateProfile({
             ...profile,
@@ -90,4 +93,4 @@ const Index = () => {
 
     );
 };
-export default Index;
+export default EditProfileComponent;
